@@ -1,0 +1,215 @@
+#freehouse .freehouse-title{
+	width: 100%;
+	height: 60px;
+	font-size: 24px;
+	line-height: 60px;
+	font-weight: 600;
+}
+#freehouse .freehouse-swiper{
+	width: 100%;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ededed;
+}
+#freehouse .freehouse-swiper .freehouse-s-map{
+	margin-top: 25px;
+	font-size: 14px;
+	color: #808080;
+	padding-left: 20px;
+	position: relative;
+}
+#freehouse .freehouse-swiper .freehouse-s-map img{
+	position: absolute;
+	top: -5px;
+	left: 0;
+}
+#freehouse .freehouse-swiper .freehouse-s-titleone{
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 30px;
+	margin-top: 20px;
+}
+#freehouse .freehouse-swiper .freehouse-s-neirongone{
+	margin-top: 20px;
+	font-size: 14px;
+	color: #808080;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+#freehouse .freehouse-swiper .freehouse-s-neirongone span{
+	padding-left: 21px;
+	position: relative;
+}
+#freehouse .freehouse-swiper .freehouse-s-neirongone span img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#freehouse .freehouse-swiper .freehouse-s-phone{
+	font-size: 18px;
+	font-weight: 600;
+	color: #62a82f;
+	text-align: center;
+	margin-top: 42px;
+}
+#freehouse .freehouse-swiper .freehouse-s-ren{
+	font-size: 14px;
+	color: #808080;
+	text-align: center;
+	margin-top: 42px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+#freehouse .freehouse-swiper .freehouse-s-ren img{
+	margin-right: 5px;
+}
+#freehouse .freehouse-swiper .freehouse-s-button{
+	width: 100%;
+	height: 40px;
+	background: #62a82f;
+	margin-top: 12px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+}
+/* echarts */
+#echarts{
+	border-bottom: 1px solid #ededed;
+}
+#echarts .echarts-p{
+	font-size: 14px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+#echarts .echarts-p:nth-child(3){
+	margin-bottom: 30px;
+}
+#echarts .echarts-p span{
+	color: #62a82f;
+	margin-left: 30px;
+}
+#echarts .echarts-p1{
+	font-size: 14px;
+	color: #808080;
+	margin: 30px 0 60px;
+}
+/* 房贷  */
+#housingloan{
+	width: 100%;
+	border-bottom: 1px solid #ededed;
+	padding-bottom: 60px;
+}
+#housingloan .housingloan-select{
+	width: 100%;
+	height: 32px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+#housingloan .housingloan-select .housingloan-s-option input{
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline-color: #62a82f;
+	text-align: center;
+	box-sizing: border-box;
+	color: #62a82f;
+}
+#housingloan .housingloan-select .housingloan-s-title{
+	width: 35%;
+	float: left;
+	line-height: 32px;
+	font-size: 14px;
+}
+#housingloan .housingloan-select .housingloan-s-option{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	border: 1px solid #ededed;
+	position: relative;
+}
+#housingloan .housingloan-select .housingloan-s-option select{
+	width: 100%;
+	height: 32px;
+	font-size: 14px;
+	color: #62a82f;
+  text-align: center;
+  text-align-last: center;
+	border: none;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: transparent;
+	padding-right: 32px;
+	outline-color: #62a82f;
+	position: relative;
+	z-index: 9;
+}
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+#housingloan .housingloan-select .housingloan-s-option select::-ms-expand { display: none; }
+#housingloan .housingloan-select .housingloan-s-option .housingloan-so-xia{
+	width: 32px;
+	height: 100%;
+	background: #f5f5f5;
+	border-left: 1px solid #ededed;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 8;
+}
+#housingloan .housingloan-select .housingloan-s-option .housingloan-so-xia:after{
+	width: 0;
+	height: 0;
+	content: "";
+	display: block;
+	border: 6px solid #808080;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#housingloan .housingloan-submit{
+	width: 100%;
+	height: 40px;
+	background: #62a82f;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+	cursor: pointer;
+}
+/* 广告 */
+/* billboard */
+#billboard .billboard-wap{
+	width: 100%;
+	height: auto;
+	margin: 60px 0;
+}
+#billboard .billboard-wap img{
+	width: 100%;
+	height: auto;
+	display: block;
+}

@@ -1,0 +1,297 @@
+#houseswiper{
+	width: 100%;
+	height: 100%;
+}
+#houseswiper .houseswiper-wap{
+	width: 100%;
+	height: 100%;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-bigswiper{
+	width: 100%;
+	height: 490px;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-bigswiper ul{
+	width: 100%;
+	height: 490px;
+	overflow: hidden;
+	position: relative;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-bigswiper ul li{
+	width: 100%;
+	height: 490px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-bigswiper ul li:nth-child(1){
+	opacity: 1;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-bigswiper ul li .houseswiper-wb-img1{
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 9;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-bigswiper ul li .houseswiper-wb-img2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	cursor: pointer;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper{
+	width: 100%;
+	height: 110px;
+	margin-top: 10px;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-prev{
+	width: 45px;
+	height: 100%;
+	background: #e5e5e5;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-next{
+	width: 45px;
+	height: 100%;
+	background: #e5e5e5;
+	float: right;
+	position: relative;
+	cursor: pointer;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-next:after{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 3px solid #808080;
+	border-left-color: transparent;
+	border-bottom-color: transparent;
+	position: absolute;
+	top: 50%;
+	left: 44%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-prev:after{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 3px solid #808080;
+	border-right-color: transparent;
+	border-top-color: transparent;
+	position: absolute;
+	top: 50%;
+	left: 56%;
+	transform: translate(-50%, -50%) rotate(45deg);
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-div{
+	width: 630px;
+	height: 100%;
+	padding: 0 5px;
+	float: left;
+	overflow: hidden;
+	position: relative;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-div .houseswiper-ws-ul{
+	width: 1000%;
+	height: 100%;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-div .houseswiper-ws-ul .houseswiper-wsu-li{
+	width: 150px;
+	height: 100%;
+	overflow: hidden;
+	padding: 0 5px;
+	float: left;
+	position: relative;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-div .houseswiper-ws-ul .houseswiper-wsu-li .houseswiper-wsul-heibei{
+	width: 150px;
+	height: 110px;
+	background: #081a24;
+	position: absolute;
+	top: 0;
+	left: 5px;
+	z-index: 11;
+	opacity: 0;
+	cursor: pointer;
+	transform: translateY(-110px);
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-div .houseswiper-ws-ul .houseswiper-wsu-li .addheibei{
+	opacity: 0.3;
+	cursor: default;
+	transform: translateX(0px);
+	transition: all .5s ease;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-div .houseswiper-ws-ul .houseswiper-wsu-li .houseswiper-wb-img1{
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#houseswiper .houseswiper-wap .houseswiper-w-smallswiper .houseswiper-ws-div .houseswiper-ws-ul .houseswiper-wsu-li .houseswiper-wb-img2{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 10;
+	cursor: pointer;
+}
+#housingloannumber{
+	width: 100%;
+	height: 436px;
+}
+#housingloannumber .housingloannumber-left{
+	float: left;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan{
+	margin-bottom: 30px;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan .housingloannumber-ld-p{
+	float: left;
+	font-size: 18px;
+	line-height: 40px;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan .housingloannumber-ld-sec{
+	float: left;
+	width: 360px;
+	height: 40px;
+	border: 1px solid #ededed;
+	position: relative;
+	margin-left: 10px;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan .housingloannumber-ld-sec select{
+	width: 100%;
+	height: 40px;
+	font-size: 14px;
+	color: #62a82f;
+  text-align: center;
+  text-align-last: center;
+	border: none;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: transparent;
+	padding-right: 40px;
+	outline-color: #62a82f;
+	position: relative;
+	z-index: 9;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan .housingloannumber-ld-sec input{
+	width: 89%;
+	height: 40px;
+	font-size: 14px;
+	color: #62a82f;
+  text-align: center;
+  text-align-last: center;
+	border: none;
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	background: transparent;
+	padding-right: 40px;
+	outline-color: #62a82f;
+	position: relative;
+	z-index: 9;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan .housingloannumber-ld-sec .housingloannumber-lds-xia{
+	width: 40px;
+	height: 100%;
+	background: #f5f5f5;
+	border-left: 1px solid #ededed;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 8;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan .housingloannumber-ld-sec .housingloannumber-lds-xiazi{
+	width: 40px;
+	height: 100%;
+	font-size: 18px;
+	color: #808080;
+	line-height: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 8;
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-dan .housingloannumber-ld-sec .housingloannumber-lds-xia:after{
+	width: 0;
+	height: 0;
+	content: "";
+	display: block;
+	border: 6px solid #808080;
+	border-right-color: transparent;
+	border-bottom-color: transparent;
+	border-left-color: transparent;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#housingloannumber .housingloannumber-left .housingloannumber-l-submit{
+	width: 360px;
+	height: 40px;
+	background: #62a82f;
+	float: right;
+	font-size: 16px;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 30px;
+}
+#housingloannumber .housingloannumber-right{
+	width: 50%;
+	height: 436px;
+	float: right;
+	position: relative;
+}
+#housingloannumber .housingloannumber-right .housingloannumber-r-p{
+	font-size: 24px;
+	color: #808080;
+	position: absolute;
+	top: 20%;
+	left: 30%;
+}
+#vicinity .vicinity-wap{
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+#vicinity .vicinity-wap .vicinity-w-dan{
+  width: 285px;
+}
+#vicinity .vicinity-wap .vicinity-w-dan .vicinity-wd-img{
+  width: 285px;
+  height: 240px;
+  overflow: hidden;
+}
+#vicinity .vicinity-wap .vicinity-w-dan .vicinity-wd-img img{
+  height: 100%;
+  width: auto;
+}
+#vicinity .vicinity-wap .vicinity-w-dan p:nth-child(2){
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+#vicinity .vicinity-wap .vicinity-w-dan p:nth-child(2) span{
+  font-size: 18px;
+  font-weight: 600;
+  color: #62a82f;
+  float: right;
+}
+#vicinity .vicinity-wap .vicinity-w-dan p:nth-child(3){
+  font-size: 16px;
+  color: #808080;
+  margin-top: 12px;
+}
