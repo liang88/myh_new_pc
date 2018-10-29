@@ -4,8 +4,10 @@
   	<Headertoponeview v-show="secondpage"></Headertoponeview>
     <Headerview v-show="firstpage"></Headerview>
   	<Headeroneview v-show="secondpage"></Headeroneview>
+    <Headerlog v-show="log"></Headerlog>
     <router-view></router-view>
-    <Footerview></Footerview>
+    <Footerview v-show="footlog"></Footerview>
+    <Footerlog v-show="log"></Footerlog>
   </div>
 </template>
 
@@ -15,7 +17,9 @@ import Headertopview from './components/public/Headertop.vue'
 import Headertoponeview from './components/public/Headertopone.vue'
 import Headerview from './components/public/Header.vue'
 import Headeroneview from './components/public/Headerone.vue'
+import Headerlog from './components/public/Headerlog.vue'
 import Footerview from './components/public/Footer.vue'
+import Footerlog from './components/public/Footerlog.vue'
 export default {
   name: 'App',
   components: {
@@ -23,12 +27,16 @@ export default {
   	Headertopview,
     Headerview,
   	Headeroneview,
+    Headerlog,
   	Footerview,
+    Footerlog,
   },
   data () {
     return {
       firstpage: true,
       secondpage: false,
+      log: false,
+      footlog: true,
     }
   },
   methods: {
@@ -36,9 +44,18 @@ export default {
       if(this.$route.path==='/Newhousedetails/'){
         this.firstpage = false
         this.secondpage = true
-      }else {
+        this.log = false
+        this.footlog = true
+      } else if (this.$route.path=='/Login') {
+        this.firstpage = false
+        this.secondpage = false
+        this.log = true
+        this.footlog = false
+      } else {
         this.firstpage = true
         this.secondpage = false
+        this.log = false
+        this.footlog = true
       }
     }
   },

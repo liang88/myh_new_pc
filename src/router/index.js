@@ -27,6 +27,10 @@ export default new Router({
     {
       path: '/Newhousedetails',
       component: resolve => require(['@/components/firstLevelPage/secondLevelPage/Newhousedetails'], resolve),
+    },
+    {
+      path: '/Login',
+      component: resolve => require(['@/components/firstLevelPage/Login'], resolve),
     }
   ]
 })

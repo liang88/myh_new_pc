@@ -7,7 +7,7 @@
       	  	<img src="/static/images/public/position.png" alt="">
       	  	北京
       	  </p>
-      	  <p>请登录</p>
+      	  <router-link tag="p" to="/Login">请登录</router-link>
       	  <p>注册</p>
       	</div>
       	<div class="headertop-c-right">
