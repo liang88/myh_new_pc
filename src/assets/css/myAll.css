@@ -3590,6 +3590,11 @@
   padding-bottom: 60px;
   border-bottom: 1px solid #ededed;
 }
+/*****************************************************************************************/
+/*****************************************************************************************/
+                                    /**登录注册**/
+/*****************************************************************************************/
+/*****************************************************************************************/
 #login{
 	width: 100%;
 	height: 100%;
@@ -3606,7 +3611,7 @@
 }
 #login .login-wap .login-log{
 	width: 960px;
-	height: 480px;
+	min-height: 480px;
 	padding: 60px 0;
 	background: #fff;
 	margin: 60px auto;
@@ -3684,6 +3689,35 @@
 	right: 12px;
 	cursor: not-allowed;
 }
+#login .login-wap .login-log .login-l-left .login-ll-inpone:nth-child(4){
+	width: 100%;
+	height: 60px;
+	border: none;
+	margin-top: 30px;
+	position: relative;
+}
+#login .login-wap .login-log .login-l-left .login-ll-inpone:nth-child(4) .login-lli-inptwo{
+	width: 69%;
+	height: 100%;
+	border: 1px solid #ededed;
+	float: left;
+}
+#login .login-wap .login-log .login-l-left .login-ll-inpone:nth-child(4) .login-lli-code{
+	width: 28%;
+	height: 100%;
+	border: 1px solid #ededed;
+	float: right;
+	cursor: pointer;
+}
+#login .login-wap .login-log .login-l-left .login-ll-forget{
+	width: 100%;
+	margin-top: 20px;
+	text-align: right;
+	font-size: 16px;
+	font-weight: 600;
+	color: #62a82f;
+	cursor: pointer;
+}
 #login .login-wap .login-log .login-l-left .login-ll-inpone .login-lli-message{
 	width: auto;
 	font-size: 14px;
@@ -3750,9 +3784,637 @@
 	line-height: 60px;
 	cursor: not-allowed;
 }
+#login .login-wap .login-log .login-l-left .login-ll-subAll{
+	margin-top: 56px;
+}
+#login .login-wap .login-log .login-l-getbackone{
+	width: 420px;
+	height: 100%;
+	padding: 0 60px;
+	float: left;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-title{
+	width: 100%;
+	font-size: 24px;
+	font-weight: 600;
+	color: #62a82f;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone:nth-child(1){
+	width: 100%;
+	height: 60px;
+	border: 1px solid #ededed;
+	margin-top: 36px;
+	position: relative;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #ededed;
+	margin-top: 30px;
+	position: relative;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone input{
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+	border: none;
+	box-sizing: border-box;
+	outline-color: #62a82f;
+	font-size: 18px;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone:nth-child(2) input{
+	padding-right: 50px;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone:nth-child(2) .login-lgi-code{
+	width: 104px;
+	height: 36px;
+	background: #62a82d;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	cursor: pointer;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone:nth-child(2) .login-lgi-codeTwo{
+	width: 104px;
+	height: 36px;
+	background: #f5f5f5;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	color: #081a24;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	cursor: not-allowed;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone .login-lgi-message{
+	width: auto;
+	font-size: 14px;
+	color: #fff;
+	padding: 14px 25px;
+	background: #ed5621;
+	position: absolute;
+	bottom: -50px;
+	left: -1px;
+	z-index: 9;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone .login-lgi-message:after{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #ed5621;
+	transform: rotate(45deg);
+	position: absolute;
+	top: -4px;
+	left: 23px;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-inpone .login-lgi-eye{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-sub{
+	width: 100%;
+	height: 60px;
+	background: #62a82f;
+	margin-top: 66px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+}
+#login .login-wap .login-log .login-l-getbackone .login-lg-smallwap .login-lg-subTwo{
+	width: 100%;
+	height: 60px;
+	background: #f5f5f5;
+	margin-top: 66px;
+	font-size: 18px;
+	color: #808080;
+	font-weight: 600;
+	text-align: center;
+	line-height: 60px;
+	cursor: not-allowed;
+}
 #login .login-wap .login-log .login-l-right{
-	width: 300px;
+	width: 299px;
 	height: 100%;
 	padding: 0 60px;
 	float: right;
+	border-left: 1px dashed #ededed;
+	position: relative;
+}
+#login .login-wap .login-log .login-l-right .login-lr-or{
+	height: 34px;
+	background: #fff;
+	line-height: 34px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #b3b3b3;
+	position: absolute;
+	top: 50%;
+	left: -10px;
+	transform: translateY(-50%);
+}
+#login .login-wap .login-log .login-l-right .login-lr-erweima{
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	position: relative;
+}
+#login .login-wap .login-log .login-l-right .login-lr-erweima img{
+	width: 100%;
+	height: 100%;
+}
+#login .login-wap .login-log .login-l-right .login-lr-erweima .login-lre-bgfff{
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-justify-content: center;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+#login .login-wap .login-log .login-l-right .login-lr-erweima .login-lre-bgfff div p:nth-child(1){
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+}
+#login .login-wap .login-log .login-l-right .login-lr-erweima .login-lre-bgfff div p:nth-child(2){
+	width: 114px;
+	height: 42px;
+	background: #62a82f;
+	border-radius: 5px;
+	font-size: 18px;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+#login .login-wap .login-log .login-l-right .login-lr-p{
+	font-size: 16px;
+	text-align: center;
+	color: #808080;
+}
+#login .login-wap .login-log .login-l-right .login-lr-p:nth-child(2){
+	margin-top: 20px;
+}
+#login .login-wap .login-log .login-l-right .login-lr-p:nth-child(3){
+	margin-top: 10px;
+}
+#login .login-wap .login-log .login-l-right .login-lr-threelog{
+	width: 280px;
+	margin: 0 auto;
+	border-bottom: 1px solid #ededed;
+	margin-top: 40px;
+	position: relative;
+}
+#login .login-wap .login-log .login-l-right .login-lr-threelog p{
+	padding: 0 24px;
+	background: #fff;
+	font-size: 14px;
+	color: #b3b3b3;
+	position: absolute;
+	bottom: -8px;
+	left: 50%;
+	transform: translateX(-50%)
+}
+#login .login-wap .login-log .login-l-right .login-lr-qqweixin{
+	width: 100%;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 44px;
+}
+#login .login-wap .login-log .login-l-right .login-lr-qqweixin img{
+	cursor: pointer;
+}
+#login .login-wap .login-log .login-l-right .login-lr-zhuce{
+	width: 100%;
+	margin-top: 42px;
+}
+#login .login-wap .login-log .login-l-right .login-lr-zhuce p{
+	float: right;
+	font-size: 24px;
+	color: #62a82f;
+	font-weight: 600;
+	padding-right: 35px;
+	position: relative;
+	cursor: pointer;
+}
+#login .login-wap .login-log .login-l-right .login-lr-zhuce p img{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#login .login-wap .login-register{
+	width: 960px;
+	min-height: 480px;
+	padding: 60px 0;
+	background: #fff;
+	margin: 60px auto;
+	box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.2);
+}
+#login .login-wap .login-register .login-r-left{
+	width: 420px;
+	height: 100%;
+	padding: 0 60px;
+	float: left;
+}
+#login .login-wap .login-register .login-r-left .login-rl-p{
+	width: 100%;
+	font-size: 24px;
+	color: #62a82f;
+	font-weight: 600;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #ededed;
+	margin-top: 30px;
+	position: relative;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone input{
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+	border: none;
+	box-sizing: border-box;
+	outline-color: #62a82f;
+	font-size: 18px;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone:nth-child(2){
+	width: 100%;
+	height: 60px;
+	border: 1px solid #ededed;
+	margin-top: 36px;
+	position: relative;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone:nth-child(3) input{
+	padding-right: 50px;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone:nth-child(3) .login-rli-code{
+	width: 104px;
+	height: 36px;
+	background: #62a82d;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	cursor: pointer;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone:nth-child(3) .login-rli-codeTwo{
+	width: 104px;
+	height: 36px;
+	background: #f5f5f5;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	color: #081a24;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	cursor: not-allowed;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone .login-rli-eye{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone .login-rli-message{
+	width: auto;
+	font-size: 14px;
+	color: #fff;
+	padding: 14px 25px;
+	background: #ed5621;
+	position: absolute;
+	bottom: -50px;
+	left: -1px;
+	z-index: 9;
+}
+#login .login-wap .login-register .login-r-left .login-rl-inpone .login-rli-message:after{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #ed5621;
+	transform: rotate(45deg);
+	position: absolute;
+	top: -4px;
+	left: 23px;
+}
+#login .login-wap .login-register .login-r-left .login-rl-agreement{
+	width: 100%;
+	margin-top: 30px;
+}
+#login .login-wap .login-register .login-r-left .login-rl-agreement img{
+	float: left;
+	cursor: pointer;
+}
+#login .login-wap .login-register .login-r-left .login-rl-agreement p{
+	float: left;
+	font-size: 14px;
+	color: #808080;
+	margin-left: 12px;
+	margin-top: 3px;
+}
+#login .login-wap .login-register .login-r-left .login-rl-agreement p span{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #62a82f;
+}
+#login .login-wap .login-register .login-r-left .login-rl-sub{
+	width: 100%;
+	height: 60px;
+	background: #62a82f;
+	margin-top: 66px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+}
+#login .login-wap .login-register .login-r-left .login-rl-subTwo{
+	width: 100%;
+	height: 60px;
+	background: #f5f5f5;
+	margin-top: 66px;
+	font-size: 18px;
+	color: #808080;
+	font-weight: 600;
+	text-align: center;
+	line-height: 60px;
+	cursor: not-allowed;
+}
+#login .login-wap .login-register .login-r-left .login-rl-subAll{
+	margin-top: 56px;
+}
+#login .login-wap .login-register .login-r-right{
+	width: 299px;
+	height: 100%;
+	padding: 0 60px;
+	float: right;
+	border-left: 1px dashed #ededed;
+	position: relative;
+}
+#login .login-wap .login-register .login-r-right .login-rr-or{
+	height: 34px;
+	background: #fff;
+	line-height: 34px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #b3b3b3;
+	position: absolute;
+	top: 50%;
+	left: -10px;
+	transform: translateY(-50%);
+}
+#login .login-wap .login-register .login-r-right .login-rr-erweima{
+	width: 200px;
+	height: 200px;
+	margin: 200px auto 0;
+}
+#login .login-wap .login-register .login-r-right .login-rr-erweima img{
+	width: 100%;
+	height: 100%;
+}
+#login .login-wap .login-register .login-r-right .login-rr-title{
+	width: 100%;
+	font-size: 16px;
+	color: #808080;
+	text-align: center;
+	margin-top: 20px;
+}
+#login .login-wap .login-register .login-r-right .login-rr-denglu{
+	width: 100%;
+	margin-top: 210px;
+}
+#login .login-wap .login-register .login-r-right .login-rr-denglu p{
+	float: right;
+	font-size: 24px;
+	color: #62a82f;
+	font-weight: 600;
+	padding-right: 35px;
+	position: relative;
+	cursor: pointer;
+	margin-right: 35px;
+}
+#login .login-wap .login-register .login-r-right .login-rr-denglu p img{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+#login .login-wap .login-perfect{
+	width: 420px;
+	padding: 60px 150px;
+	margin: 60px auto;
+	background: #fff;
+	position: relative;
+}
+#login .login-wap .login-perfect .login-p-p{
+	width: 100%;
+	font-size: 24px;
+	font-weight: 600;
+	color: #62a82f;
+	text-align: center;
+}
+#login .login-wap .login-perfect .login-p-ptwo{
+	width: 100%;
+	font-size: 14px;
+	color: #b3b3b3;
+	text-align: center;
+	margin: 10px 0 60px;
+}
+#login .login-wap .login-perfect .login-p-inpone .login-pi-message{
+	width: auto;
+	font-size: 14px;
+	color: #fff;
+	padding: 14px 25px;
+	background: #ed5621;
+	position: absolute;
+	bottom: -50px;
+	left: -1px;
+	z-index: 9;
+}
+#login .login-wap .login-perfect .login-p-inpone .login-pi-message:after{
+	content: "";
+	display: block;
+	width: 10px;
+	height: 10px;
+	background: #ed5621;
+	transform: rotate(45deg);
+	position: absolute;
+	top: -4px;
+	left: 23px;
+}
+#login .login-wap .login-perfect .login-p-inpone{
+	width: 100%;
+	height: 60px;
+	border: 1px solid #ededed;
+	margin-top: 30px;
+	position: relative;
+}
+#login .login-wap .login-perfect .login-p-inpone input{
+	width: 100%;
+	height: 60px;
+	padding: 20px;
+	border: none;
+	box-sizing: border-box;
+	outline-color: #62a82f;
+	font-size: 18px;
+}
+#login .login-wap .login-perfect .login-p-inpone:nth-child(4) input{
+	padding-right: 50px;
+}
+#login .login-wap .login-perfect .login-p-inpone:nth-child(4) .login-pi-code{
+	width: 104px;
+	height: 36px;
+	background: #62a82d;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	color: #fff;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	cursor: pointer;
+}
+#login .login-wap .login-perfect .login-p-inpone:nth-child(4) .login-pi-codeTwo{
+	width: 104px;
+	height: 36px;
+	background: #f5f5f5;
+	font-size: 16px;
+	text-align: center;
+	line-height: 36px;
+	color: #081a24;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+	cursor: not-allowed;
+}
+#login .login-wap .login-perfect .login-p-inpone .login-pi-eye{
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+#login .login-wap .login-perfect .login-p-agreement{
+	width: 100%;
+	margin-top: 30px;
+}
+#login .login-wap .login-perfect .login-p-agreement img{
+	float: left;
+	cursor: pointer;
+}
+#login .login-wap .login-perfect .login-p-agreement p{
+	float: left;
+	font-size: 14px;
+	color: #808080;
+	margin-left: 12px;
+	margin-top: 3px;
+}
+#login .login-wap .login-perfect .login-p-agreement p span{
+	text-decoration: underline;
+	cursor: pointer;
+	color: #62a82f;
+}
+#login .login-wap .login-perfect .login-p-sub{
+	width: 100%;
+	height: 60px;
+	background: #62a82f;
+	margin-top: 66px;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 600;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+}
+#login .login-wap .login-perfect .login-p-subTwo{
+	width: 100%;
+	height: 60px;
+	background: #f5f5f5;
+	margin-top: 66px;
+	font-size: 18px;
+	color: #808080;
+	font-weight: 600;
+	text-align: center;
+	line-height: 60px;
+	cursor: not-allowed;
+}
+#login .login-wap .login-perfect .login-p-close{
+	position: absolute;
+	right: 0;
+	top: 0;
+	cursor: pointer;
+}
+#login .login-wap .login-perfect .login-p-pop{
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+#login .login-wap .login-perfect .login-p-pop .login-pp-message{
+	width: 720px;
+	height: 440px;
+	background: #fff
+}
+#login .login-wap .login-perfect .login-p-pop .login-pp-message p{
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	margin-top: 140px;
+}
+#login .login-wap .login-perfect .login-p-pop .login-pp-message .login-ppm-but{
+	width: 250px;
+	height: 60px;
+	background: #62a82f;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	margin: 145px auto 0;
+	cursor: pointer;
 }
