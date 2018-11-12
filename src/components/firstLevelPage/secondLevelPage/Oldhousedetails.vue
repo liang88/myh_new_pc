@@ -1,7 +1,7 @@
 <template>
-  <div id="newhousedetails">
-		<div class="newhousedetails-wap">
-			<div class="newhousedetails-w-mianbao">
+  <div id="oldhousedetails">
+		<div class="oldhousedetails-wap">
+			<div class="oldhousedetails-w-mianbao">
 				<el-breadcrumb separator-class="el-icon-arrow-right">
 				  <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
 				  <el-breadcrumb-item>活动管理</el-breadcrumb-item>
@@ -10,11 +10,11 @@
 				  <el-breadcrumb-item>活动详情</el-breadcrumb-item>
 				</el-breadcrumb>
 			</div>
-			<p class="newhousedetails-w-title clear"><span>瑞悦华府 精装修 带电梯</span><span>期房在售</span></p>
-			<div class="newhousedetails-w-number clear">
-				<p class="newhousedetails-wn-left">房源编号：123456789</p>
-				<div class="newhousedetails-wn-right">
-					<p @click="FxShow" class="newhousedetails-wnr-p"><img src="static/images/firstLevelPage/secondLevelPage/b-fenxiang.png" alt="">
+			<p class="oldhousedetails-w-title">瑞悦华府 精装修 带电梯</p>
+			<div class="oldhousedetails-w-number clear">
+				<p class="oldhousedetails-wn-left">房源编号：123456789</p>
+				<div class="oldhousedetails-wn-right">
+					<p @click="FxShow" class="oldhousedetails-wnr-p"><img src="static/images/firstLevelPage/secondLevelPage/b-fenxiang.png" alt="">
 						分享
 						<el-collapse-transition>
 							<ul v-show="fxShow">
@@ -33,80 +33,93 @@
 							</ul>
 						</el-collapse-transition>
 					</p>
-					<p class="newhousedetails-wnr-p"><img src="static/images/firstLevelPage/secondLevelPage/a-follow1.png" alt="">关注</p>
+					<p class="oldhousedetails-wnr-p"><img src="static/images/firstLevelPage/secondLevelPage/a-follow1.png" alt="">关注</p>
 				</div>
 			</div>
-			<div class="newhousedetails-w-swiper clear">
-				<div class="newhousedetails-ws-left">
+			<div class="oldhousedetails-w-swiper clear">
+				<div class="oldhousedetails-ws-left">
 					<Houseswiperview :slides="slides"></Houseswiperview>
 				</div>
-				<div class="newhousedetails-ws-right">
-					<div class="newhousedetails-wsr-one clear	">
-						<p>参考价<span>6501212</span><span>元/㎡</span></p>
+				<div class="oldhousedetails-ws-right">
+					<div class="oldhousedetails-wsr-one clear	">
+						<p>总价<span>650</span><span>万</span></p>
+						<p>单价40000元/㎡</p>
 						<p><img src="static/images/firstLevelPage/secondLevelPage/c-computed.png" alt="">房贷计算</p>
 					</div>
-					<div class="newhousedetails-wsr-two">
+					<div class="oldhousedetails-wsr-two">
 						<p>近地铁</p>
 						<p>南北通透</p>
 						<p>精装修</p>
 					</div>
-					<div class="newhousedetails-wsr-table">
+					<div class="oldhousedetails-wsr-table">
 						<table border="0">
 						  <tr>
-						    <td>优惠折扣</td>
-						    <td colspan="3">最高优惠 2 万元</td>
+						    <td>户型</td>
+						    <td>2室1厅</td>
+						    <td>面积</td>
+						    <td>112㎡</td>
 						  </tr>
 						  <tr>
-						    <td>位置</td>
-						    <td colspan="3">朝阳·孙河</td>
+						    <td>楼层</td>
+						    <td>16层/共28层</td>
+						    <td>朝向</td>
+						    <td>南北通透</td>
 						  </tr>
 						  <tr>
-						    <td>地址</td>
-						    <td colspan="3"><p>距东直门地铁800米距东直门地铁800米</p><span>查看地图</span></td>
+						    <td>小区</td>
+						    <td>辉光小区<span>地图</span></td>
+						    <td>装修</td>
+						    <td>精装</td>
 						  </tr>
 						  <tr>
-						    <td>楼盘户型</td>
-						    <td colspan="3">距东直门地铁800米<span>更多户型</span></td>
+						    <td>年代</td>
+						    <td>2018年建</td>
+						    <td>建筑类型</td>
+						    <td>板楼</td>
 						  </tr>
 						  <tr>
-						    <td>最新开盘</td>
-						    <td colspan="3">距东直门地铁800米</td>
+						    <td>商圈</td>
+						    <td>东直门</td>
+						    <td>看房时间</td>
+						    <td>随时看房</td>
 						  </tr>
 						  <tr>
-						    <td>交房时间</td>
+						    <td>交通</td>
 						    <td colspan="3">距东直门地铁800米</td>
 					<!-- 	    <td>面积</td>
 						    <td>112㎡</td> -->
 						  </tr>
 						  <tr>
-						    <td>用户点评</td>
-						    <td colspan="3">距东直门地铁800米<span>查看点评</span></td>
+						    <td>点评</td>
+						    <td>10条点评<span>查看点评</span></td>
+						    <td>发布时间</td>
+						    <td>12天	前</td>
 						  </tr>
 						</table>
 					</div>
-					<p class="newhousedetails-wsr-mall"><span>更多房源信息 》</span></p>
-					<div class="newhousedetails-wsr-phone">
+					<p class="oldhousedetails-wsr-mall"><span>更多房源信息 》</span></p>
+					<div class="oldhousedetails-wsr-phone">
 						400-1133-233<span> 转 </span>66888
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="newhousedetails-nav">
-			<div class="newhousedetails-n-fixd">
-				<div class="newhousedetails-nf-center">
+		<div class="oldhousedetails-nav">
+			<div class="oldhousedetails-n-fixd">
+				<div class="oldhousedetails-nf-center">
 					<a v-for="(item,index) in smallNavs" :id="item.to" @click="addClass(index)" :class="{newhouseColor:index === cour}">{{item.text}}</a>
 				</div>
 			</div>
 		</div>
-		<div class="newhousedetails-smallmodel">
-			<div class="newhousedetails-s-center">
-				<p class="newhousedetails-sc-title" id="middleman">经纪人</p>
-				<div class="newhousedetails-sc-swiper">
+		<div class="oldhousedetails-smallmodel">
+			<div class="oldhousedetails-s-center">
+				<p class="oldhousedetails-sc-title" id="middleman">经纪人</p>
+				<div class="oldhousedetails-sc-swiper">
 					<!-- 经纪人swiper -->
 					<Middlemanswiper :middlemanslides="middlemanslides"></Middlemanswiper>
 				</div>
-				<p class="newhousedetails-sc-title" id="housedetailsall">楼盘信息</p>
-				<div class="newhousedetails-sc-details">
+				<p class="oldhousedetails-sc-title" id="housedetailsall">楼盘信息</p>
+				<div class="oldhousedetails-sc-details">
 					<table border="0">
 					  <tr>
 					    <td>户型</td>
@@ -155,69 +168,54 @@
 					    <td>有</td>
 					  </tr>
 					</table>
-					<p class="newhousedetails-scd-p1">展开更多信息</p>
-					<p class="newhousedetails-scd-p">说明：房源信息仅供参考，具体以房本信息为准。</p>
+					<p class="oldhousedetails-scd-p">说明：房源信息仅供参考，具体以房本信息为准。</p>
 				</div>
-				<div class="newhousedetails-sc-title newhousedetails-sc-titleTwo clear" id="housepic">
-					户型介绍
-					<div class="newhousedetails-sct-title">
+				<div class="oldhousedetails-sc-title oldhousedetails-sc-titleTwo clear" id="housepic">
+					房源图片
+					<div class="oldhousedetails-sct-title">
 						<p v-for="(item, index) in titleOne" @click="addClassTwo (index)" :class="{sctTitle:index === courTwo}">{{item.text}}</p>
 					</div>
 				</div>
-				<div class="newhousedetails-sc-houseswiper">
-					<!-- 户型介绍swiper -->
-					<Newdetailspic :newdetailspics="newdetailspics"></Newdetailspic>
+				<div class="oldhousedetails-sc-houseswiper">
+					<!-- 房源图片swiper -->
+					<Housesimgwiper :houseslides="houseslides"></Housesimgwiper>
 				</div>
-				<div class="newhousedetails-sc-title newhousedetails-sc-titleTwo clear" id="housefloorpic">
-					楼盘相册
-				</div>
-				<div class="newhousedetails-sc-houseswiperfloor">
-					<!-- 楼盘相册swiper -->
-					<Newdetailsfloor :Newdetailsfloor="Newdetailsfloor"></Newdetailsfloor>
-				</div>
-				<div class="newhousedetails-sc-title newhousedetails-sc-titleTwo clear" id="housefloordetails">
-					楼栋信息
-				</div>
-				<div class="newhousedetails-sc-housefloordetails">
-					<!-- 楼栋信息 -->
-					<img src="static/images/firstLevelPage/secondLevelPage/house.jpg" alt="">
-				</div>
-				<p class="newhousedetails-sc-title" id="mymap">周边配套</p>
-				<div class="newhousedetails-sc-map">
+				<p class="oldhousedetails-sc-title" id="mymap">周边配套</p>
+				<div class="oldhousedetails-sc-map">
 					<Mapviwe></Mapviwe>
 				</div>
-				<p class="newhousedetails-sc-title" id="housingloanTwo">房贷计算</p>
-				<div class="newhousedetails-sc-housingloan">
+				<p class="oldhousedetails-sc-title" id="housingloanTwo">房贷计算</p>
+				<div class="oldhousedetails-sc-housingloan">
 					<Housingloannumber></Housingloannumber>
 				</div>
-				<p class="newhousedetails-sc-title" id="comment">点评（{{nav}}）</p>
-				<div class="newhousedetails-sc-comment">
-					<p class="newhousedetails-scc-zongcom">综合评分：<span>4.6分</span></p>
-					<div class="newhousedetails-scc-xing clear">
-						<div class="newhousedetails-sccx-one clear">
+				<p class="oldhousedetails-sc-title" id="comment">点评（{{nav}}）</p>
+				<div class="oldhousedetails-sc-comment">
+					<p class="oldhousedetails-scc-zongcom">综合评分：<span>4.6分</span></p>
+					<div class="oldhousedetails-scc-xing clear">
+						<div class="oldhousedetails-sccx-one clear">
 							<span>周边</span>
-							<el-rate class="newhousedetails-xing" v-model="value1" disabled :colors="['#62a82f','#62a82f','#62a82f']"></el-rate>
+							<el-rate class="oldhousedetails-xing" v-model="value1" disabled :colors="['#62a82f','#62a82f','#62a82f']"></el-rate>
 						</div>
-						<div class="newhousedetails-sccx-one clear">
+						<div class="oldhousedetails-sccx-one clear">
 							<span>交通</span>
-							<el-rate class="newhousedetails-xing" v-model="value1" disabled :colors="['#62a82f','#62a82f','#62a82f']"></el-rate>
+							<el-rate class="oldhousedetails-xing" v-model="value1" disabled :colors="['#62a82f','#62a82f','#62a82f']"></el-rate>
 						</div>
-						<div class="newhousedetails-sccx-one clear">
+						<div class="oldhousedetails-sccx-one clear">
 							<span>绿化</span>
-							<el-rate class="newhousedetails-xing" v-model="value1" disabled :colors="['#62a82f','#62a82f','#62a82f']"></el-rate>
+							<el-rate class="oldhousedetails-xing" v-model="value1" disabled :colors="['#62a82f','#62a82f','#62a82f']"></el-rate>
 						</div>
 					</div>
-					<div class="newhousedetails-scc-dan clear" v-for="item in 3">
-						<div class="newhousedetails-sccd-left">
-							<div class="newhousedetails-sccdl-center">
-								<div class="newhousedetails-sccdlc-img">
+					<div class="oldhousedetails-scc-dan clear" v-for="item in 3">
+						<div class="oldhousedetails-sccd-left">
+							<div class="oldhousedetails-sccdl-center">
+								<div class="oldhousedetails-sccdlc-img">
 									<img src="static/images/firstLevelPage/secondLevelPage/erweima.png" alt="">
 								</div>
 								<p>李子奇</p>
 								<p>158****1235</p>
 							</div>
 						</div>
-						<div class="newhousedetails-sccd-right">
+						<div class="oldhousedetails-sccd-right">
 							<p>
 								<span>周边：5.6</span>
 								<span>交通：4.6</span>
@@ -230,13 +228,13 @@
 							</p>
 						</div>
 					</div>
-					<div class="newhousedetails-scc-xianshi">
+					<div class="oldhousedetails-scc-xianshi">
 						<p v-if="xianshi" @click="clkXianshi">显示全部<img src="static/images/firstLevelPage/a-bottom.png" alt=""></p>
 						<p v-else @click="clkXianshi">收起<img src="static/images/firstLevelPage/a-top.png" alt=""></p>
 					</div>
 				</div>
-				<p class="newhousedetails-sc-title newhousedetails-sc-titleThree" id="vicinity">附近房源 <span>更多 ></span></p>
-				<div class="newhousedetails-sc-vicinity">
+				<p class="oldhousedetails-sc-title oldhousedetails-sc-titleThree" id="vicinity">附近房源 <span>更多 ></span></p>
+				<div class="oldhousedetails-sc-vicinity">
 					<Vicinityview></Vicinityview>
 				</div>
 			</div>
@@ -246,18 +244,16 @@
 <script type="text/javascript">
 import Houseswiperview from './public/Houseswiper.vue'
 import Middlemanswiper from './public/Middlemanswiper.vue'
-import Newdetailspic from './public/Newdetailspic.vue'
-import Newdetailsfloor from './public/Newdetailsfloor.vue'
+import Housesimgwiper from './public/Houseimgswiper.vue'
 import Mapviwe from './public/Map.vue'
 import Housingloannumber from './public/Housingloannumber.vue'
 import Vicinityview from './public/Vicinity.vue'
 export default {
-  name: 'newhousedetails',
+  name: 'oldhousedetails',
   components: {
   	Houseswiperview,
   	Middlemanswiper,
-  	Newdetailspic,
-  	Newdetailsfloor,
+  	Housesimgwiper,
   	Mapviwe,
   	Housingloannumber,
   	Vicinityview,
@@ -328,16 +324,8 @@ export default {
       		to: '#housedetailsall',
       	},
       	{
-      		text: '户型介绍',
+      		text: '房源图片',
       		to: '#housepic',
-      	},
-      	{
-      		text: '楼盘相册',
-      		to: '#housefloorpic',
-      	},
-      	{
-      		text: '楼盘信息',
-      		to: '#housefloordetails',
       	},
       	{
       		text: '周边配套',
@@ -360,15 +348,23 @@ export default {
       courTwo: 0,
       titleOne: [
       	{
-      		text: '全部()',
+      		text: '全部',
       		to: '#',
       	},
       	{
-      		text: '三室()',
+      		text: '卧室',
       		to: '#',
       	},
       	{
-      		text: '别墅()',
+      		text: '公共区域',
+      		to: '#',
+      	},
+      	{
+      		text: '小区',
+      		to: '#',
+      	},
+      	{
+      		text: '周边',
       		to: '#',
       	},
       ],
@@ -405,8 +401,8 @@ export default {
       		phone: '17610077669',
       	},
       ],
-      //户型图片轮播
-      newdetailspics: [
+      //房源图片轮播
+      houseslides: [
       	{
       		src: require('../../../../static/images/firstLevelPage/secondLevelPage/a-left.png'),
       		name: '你好',
@@ -427,30 +423,7 @@ export default {
       		name: '你好',
       		phone: '17610077669',
       	},
-      ],
-      //楼盘相册轮播
-      Newdetailsfloor: [
-      	{
-      		src: require('../../../../static/images/firstLevelPage/secondLevelPage/a-left.png'),
-      		name: '你好',
-      		phone: '17610077669',
-      	},
-      	{
-      		src: require('../../../../static/images/firstLevelPage/secondLevelPage/house.jpg'),
-      		name: '你好',
-      		phone: '17610077669',
-      	},
-      	{
-      		src: require('../../../../static/images/firstLevelPage/secondLevelPage/b-left.png'),
-      		name: '你好',
-      		phone: '17610077669',
-      	},
-      	{
-      		src: require('../../../../static/images/firstLevelPage/secondLevelPage/house.jpg'),
-      		name: '你好',
-      		phone: '17610077669',
-      	},
-      ],
+      ]
 		}
   },
   mounted(){
@@ -484,8 +457,8 @@ export default {
   	},
   	//滚动导航栏
 		handleScroll () {
-			var topWap = document.querySelector('.newhousedetails-nav')
-			var top = document.querySelector('.newhousedetails-n-fixd')
+			var topWap = document.querySelector('.oldhousedetails-nav')
+			var top = document.querySelector('.oldhousedetails-n-fixd')
 		  var scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop
 		  var offsetTop = topWap.offsetTop
 		  // console.log(scrollTop,offsetTop)

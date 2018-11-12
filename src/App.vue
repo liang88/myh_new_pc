@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     isTab(){
-      if(this.$route.path==='/Newhousedetails/'){
+      if(this.$route.path==='/Newhousedetails/' || this.$route.path==='/Oldhousedetails/'){
         this.firstpage = false
         this.secondpage = true
         this.log = false

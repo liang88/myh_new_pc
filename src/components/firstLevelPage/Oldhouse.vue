@@ -134,11 +134,11 @@
 					<p v-for="(value,index) in dataone" @click="addClassOne(index)" :class="{oldhouse_hlt_addclass:index === classOne}">{{value.text}}</p>
 				</div>
 				<div v-for="(item,index) in 10" class="oldhouse-hl-dan clear">
-					<div class="oldhouse-hld-left">
+					<router-link tag="div" to="/Oldhousedetails/"  class="oldhouse-hld-left">
 						<img class="oldhouse-hldl-img1" src="static/images/firstLevelPage/house1.png" alt="">
 						<img class="oldhouse-hldl-img2" src="static/images/firstLevelPage/vadio.png" alt="">
 						<p>在售</p>
-					</div>
+					</router-link>
 					<div class="oldhouse-hld-center">
 						<p>都城心屿<span>36条评价</span></p>
 						<p>【朝阳•孙河】北京市朝阳区黄康路北侧孙路北侧孙路北侧孙路北侧孙路北侧孙路北侧孙路北侧孙</p>

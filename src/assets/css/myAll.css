@@ -3093,6 +3093,20 @@
 	font-weight: 600;
 	margin-top: 66px;
 }
+#newhousedetails .newhousedetails-w-title span:nth-child(1){
+	float: left;
+}
+#newhousedetails .newhousedetails-w-title span:nth-child(2){
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	color: #62a82f;
+	padding: 7px 10px;
+	margin-left: 20px;
+	border: 1px solid #62a82f;
+	border-radius: 2px;
+	float: left;
+}
 #newhousedetails .newhousedetails-w-number{
 	width: 100%;
 	font-size: 14px;
@@ -3178,18 +3192,17 @@
 	font-weight: 600;
 	color: #62a82f;
 }
-#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-one p:nth-child(2){
-	margin-top: 35px;
-	margin-left: 12px;
+#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-one p:nth-child(1) span:nth-child(2){
+	color: #62a82f;
 }
-#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-one p:nth-child(3){
+#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-one p:nth-child(2){
 	margin-top: 35px;
 	float: right;
 	padding-left: 24px;
 	position: relative;
 	cursor: pointer;
 }
-#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-one p:nth-child(3) img{
+#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-one p:nth-child(2) img{
 	position: absolute;
 	top: -2px;
 	left: 0;
@@ -3216,11 +3229,8 @@
 	padding-bottom: 25px;
 }
 #newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-table tr td:nth-child(1){
-	width: 76px;
+	width: 96px;
 	color: #b3b3b3;
-}
-#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-table tr td:nth-child(2){
-	width: 200px;
 }
 #newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-table tr td:nth-child(2) span{
 	color: #62a82f;
@@ -3228,12 +3238,12 @@
 	cursor: pointer;
 	margin-left: 20px;
 }
-#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-table tr td:nth-child(3){
-	width: 112px;
-	color: #b3b3b3;
-}
-#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-table tr td:nth-child(4){
-	width: 72px;
+#newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-table tr:nth-child(3) td:nth-child(2) p{
+	display: inline-block;
+	max-width: 270px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
 }
 #newhousedetails .newhousedetails-w-swiper .newhousedetails-ws-right .newhousedetails-wsr-mall{
 	padding-bottom: 24px;
@@ -3264,7 +3274,7 @@
 }
 #newhousedetails .newhousedetails-nav .newhousedetails-n-fixd{
 	width: 100%;
-	height: 60px;
+	height: 76px;
 	background: #f5f5f5;
 }
 #newhousedetails .newhousedetails-nav .newhousedetails-n-fixd .newhousedetails-nf-center{
@@ -3284,6 +3294,7 @@
 	text-decoration: none;
 	font-size: 18px;
 	color: #081a24;
+	cursor: pointer;
 }
 #newhousedetails .newhousedetails-nav .newhousedetails-n-fixd .newhousedetails-nf-center .newhouseColor{
 	color: #62a82f;
@@ -3400,6 +3411,14 @@
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-details .newhousedetails-scd-p{
 	color: #808080;
+	margin-left: 118px;
+}
+#newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-details .newhousedetails-scd-p1{
+	color: #62a82f;
+	margin-left: 118px;
+	margin: 10px 0 30px 118px;
+	cursor: pointer;
+	text-decoration: underline;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-titleTwo .newhousedetails-sct-title{
 	float: right;
@@ -3431,8 +3450,23 @@
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-houseswiper{
 	width: 100%;
-	height: 405px;
+	height: 666px;
 	border-bottom: 1px solid #ededed;
+}
+#newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-houseswiperfloor{
+	width: 100%;
+	height: 345px;
+	border-bottom: 1px solid #ededed;
+}
+#newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-housefloordetails{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+#newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-housefloordetails img{
+	width: 100%;
+	height: auto;
+	display: block;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-map{
 	width: 100%;
@@ -3550,7 +3584,6 @@
 	font-size: 16px;
 	color: #808080;
 	border-top: 1px solid #ededed;
-	cursor: pointer;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-comment .newhousedetails-scc-dan .newhousedetails-sccd-right p:nth-child(3) span:nth-child(2){
 	float: right;
@@ -3558,6 +3591,7 @@
 	padding-left: 20px;
 	background: url('/static/images/firstLevelPage/secondLevelPage/a-zan1.png') no-repeat;
 	background-position: 0px 20px;
+	cursor: pointer;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-comment .newhousedetails-scc-xianshi{
 	width: 100%;
@@ -3586,6 +3620,522 @@
 	color: #808080;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-vicinity{
+	width: 100%;
+  padding-bottom: 60px;
+  border-bottom: 1px solid #ededed;
+}
+/*****************************************************************************************/
+/*****************************************************************************************/
+                                    /**二手房详情页**/
+/*****************************************************************************************/
+/*****************************************************************************************/
+#oldhousedetails .oldhousedetails-wap{
+	width: 1230px;
+	margin: 20px auto 0;
+}
+#oldhousedetails .oldhousedetails-w-mianbao{
+	width: 100%;
+}
+#oldhousedetails .oldhousedetails-w-title{
+	width: 100%;
+	font-size: 36px;
+	font-weight: 600;
+	margin-top: 66px;
+}
+#oldhousedetails .oldhousedetails-w-number{
+	width: 100%;
+	font-size: 14px;
+	margin-top: 24px;
+	margin-bottom: 36px;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-left{
+	float: left;
+	font-size: 14px;
+	color: #808080;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right{
+	float: right;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right .oldhousedetails-wnr-p{
+	float: left;
+	position: relative;
+	padding-left: 30px;
+	margin-left: 56px;
+	font-size: 18px;
+	color: #808080;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right .oldhousedetails-wnr-p img{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right .oldhousedetails-wnr-p:nth-child(1) ul{
+	width: 88px;
+	height: 300px;
+	background: #fff;
+	box-shadow: 0px 0px 20px #eee;
+	position: absolute;
+	top: 25px;
+	left: -10px;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right .oldhousedetails-wnr-p:nth-child(1) ul li{
+	display: block;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right .oldhousedetails-wnr-p:nth-child(1) ul li:nth-child(1) img{
+	width: 80%;
+	display: block;
+	margin: 10px auto 0;
+	position: relative;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right .oldhousedetails-wnr-p:nth-child(1) ul li img{
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+}
+#oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-right .oldhousedetails-wnr-p:nth-child(1) ul li p{
+	width: 80%;
+	font-size: 14px;
+	color: #081a24;
+	text-align: center;
+	margin: 12px auto 0;
+}
+#oldhousedetails .oldhousedetails-w-swiper{
+	width: 100%;
+	margin-bottom: 60px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-left{
+	width: 740px;
+	height: 610px;
+	float: left;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right{
+	width: 460px;
+	height: 610px;
+	float: right;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-one{
+	width: 100%;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-one p{
+	float: left;
+	font-size: 18px;
+	color: #808080;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-one p:nth-child(1) span:nth-child(1){
+	font-size: 60px;
+	font-weight: 600;
+	color: #62a82f;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-one p:nth-child(2){
+	margin-top: 35px;
+	margin-left: 12px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-one p:nth-child(3){
+	margin-top: 35px;
+	float: right;
+	padding-left: 24px;
+	position: relative;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-one p:nth-child(3) img{
+	position: absolute;
+	top: -2px;
+	left: 0;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-two{
+	width: 100%;
+	margin-top: 36px;
+	padding-bottom: 24px;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-two p{
+	display: inline-block;
+	font-size: 14px;
+	padding: 5px 10px;
+	background: #f5f5f5;
+	margin-right: 10px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-table{
+	width: 100%;
+	margin-top: 24px;
+	font-size: 18px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-table tr td{
+	padding-bottom: 25px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-table tr td:nth-child(1){
+	width: 76px;
+	color: #b3b3b3;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-table tr td:nth-child(2){
+	width: 200px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-table tr td:nth-child(2) span{
+	color: #62a82f;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-left: 20px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-table tr td:nth-child(3){
+	width: 112px;
+	color: #b3b3b3;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-table tr td:nth-child(4){
+	width: 72px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-mall{
+	padding-bottom: 24px;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-mall span{
+	font-size: 18px;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-phone{
+	width: 100%;
+	height: 72px;
+	background: #62a82f;
+	margin-top: 24px;
+	font-size: 30px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+	line-height: 72px;
+}
+#oldhousedetails .oldhousedetails-w-swiper .oldhousedetails-ws-right .oldhousedetails-wsr-phone span{
+	font-size: 16px;
+}
+#oldhousedetails .oldhousedetails-nav{
+	width: 100%;
+	height: 76px;
+	background: #f5f5f5;
+}
+#oldhousedetails .oldhousedetails-nav .oldhousedetails-n-fixd{
+	width: 100%;
+	height: 76px;
+	background: #f5f5f5;
+}
+#oldhousedetails .oldhousedetails-nav .oldhousedetails-n-fixd .oldhousedetails-nf-center{
+	width: 1230px;
+	height: 76px;
+	margin: 0 auto;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+}
+#oldhousedetails .oldhousedetails-nav .oldhousedetails-n-fixd .oldhousedetails-nf-center a{
+	text-decoration: none;
+	font-size: 18px;
+	color: #081a24;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-nav .oldhousedetails-n-fixd .oldhousedetails-nf-center .newhouseColor{
+	color: #62a82f;
+	position: relative;
+}
+#oldhousedetails .oldhousedetails-nav .oldhousedetails-n-fixd .oldhousedetails-nf-center .newhouseColor:after{
+	content: "";
+	width: 36px;
+	height: 3px;
+	background: #62a82f;
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: default;
+}
+#oldhousedetails .oldhousedetails-smallmodel{
+	width: 100%;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center{
+	width: 1230px;
+	margin: 0 auto;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-title{
+	font-size: 24px;
+	font-weight: 600;
+	margin: 80px 0 52px 0;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper{
+	width: 100%;
+	height: 280px;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-img{
+	width: 92px;
+	height: 92px;
+	background: #fff;
+	margin-left: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-img img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 9;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi{
+	margin-left: 36px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(1){
+	font-size: 18px;
+	font-weight: 600;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(2){
+	font-size: 18px;
+	color: #808080;
+	margin-top: 12px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(3){
+	width: auto;
+	font-size: 16px;
+	color: #62a82f;
+	margin-top: 12px;
+	padding: 10px  10px 10px 44px;
+	border: 1px solid #62a82f;
+	position: relative;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(3) img{
+	position: absolute;
+	top: 10px;
+	left: 12px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-details{
+	width: 100%;
+	font-size: 16px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-details table tr{
+	height: 40px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-details table tr td:nth-child(1){
+	width: 118px;
+	color: #b3b3b3;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-details table tr td:nth-child(2){
+	width: 850px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-details table tr td:nth-child(3){
+	width: 118px;
+	color: #b3b3b3;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-details table tr td:nth-child(4){
+	width: 144px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-details .oldhousedetails-scd-p{
+	color: #808080;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-titleTwo .oldhousedetails-sct-title{
+	float: right;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-titleTwo .oldhousedetails-sct-title p{
+	float: left;
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 8px;
+	margin-left: 34px;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-titleTwo .oldhousedetails-sct-title .sctTitle{
+	font-weight: 600;
+	font-size: 18px;
+	color: #62a82f;
+	position: relative;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-titleTwo .oldhousedetails-sct-title .sctTitle:after{
+	content: "";
+	width: 30px;
+	height: 3px;
+	background: #62a82f;
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	cursor: default;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-houseswiper{
+	width: 100%;
+	height: 405px;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-map{
+	width: 100%;
+	height: 540px;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-housingloan{
+	width: 100%;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment{
+	width: 100%;
+	padding-bottom: 60px;
+	border-bottom: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-zongcom{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-zongcom span{
+	font-size: 24px;
+	color: #62a82f;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xing{
+	width: 100%;
+	margin-bottom: 30px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xing .oldhousedetails-sccx-one{
+	float: left;
+	margin-right: 100px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xing .oldhousedetails-sccx-one .oldhousedetails-xing{
+	float: left;
+	margin-left: 12px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xing .oldhousedetails-sccx-one span{
+	float: left;
+	font-size: 18px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan{
+	width: 100%;
+	margin-bottom: 20px;
+	background: #f5f5f5;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-left{
+	width: 239px;
+	height: 100%;
+	margin: 10px 0;
+	float: left;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-webkit-justify-content: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-left .oldhousedetails-sccdl-center .oldhousedetails-sccdlc-img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	overflow: hidden;
+	position: relative;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-left .oldhousedetails-sccdl-center .oldhousedetails-sccdlc-img img{
+	width: 100%;
+	height: auto;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-left .oldhousedetails-sccdl-center p:nth-child(2){
+	font-size: 16px;
+	text-align: center;
+	margin-top: 12px;
+	font-weight: 600;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-left .oldhousedetails-sccdl-center p:nth-child(3){
+	font-size: 16px;
+	color: #808080;
+	text-align: center;
+	margin-top: 12px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right{
+	float: left;
+	max-width: 80%;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right p:nth-child(1){
+	width: 100%;
+	height: 66px;
+	line-height: 66px;
+	font-size: 16px;
+	color: #808080;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right p:nth-child(1) span{
+	margin-right: 50px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right p:nth-child(2){
+	margin-bottom: 30px;
+	font-size: 14px;
+	margin-right: 30px;
+	text-align:justify;
+	line-height: 20px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right p:nth-child(3){
+	width: 100%;
+	height: 66px;
+	line-height: 66px;
+	font-size: 16px;
+	color: #808080;
+	border-top: 1px solid #ededed;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right p:nth-child(3) span:nth-child(2){
+	float: right;
+	margin-right: 30px;
+	padding-left: 20px;
+	background: url('/static/images/firstLevelPage/secondLevelPage/a-zan1.png') no-repeat;
+	background-position: 0px 20px;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xianshi{
+	width: 100%;
+	margin-top: 30px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xianshi p{
+	font-size: 14px;
+	color: #808080;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xianshi p img{
+	margin-left: 12px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-titleThree span{
+	float: right;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #808080;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-vicinity{
 	width: 100%;
   padding-bottom: 60px;
   border-bottom: 1px solid #ededed;

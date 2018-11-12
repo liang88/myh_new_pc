@@ -429,6 +429,17 @@ export default {
   mounted(){
     this.identifyCode = "";
     this.makeCode(this.identifyCodes, 4);
+    // const root = process.env.API_ROOT;
+    // console.log(root)
+    this.$post('http://www.manyihefc.com:8080/myh_management/agentLoginVsCode',{
+			loginMobile: 1,
+			password: 1,
+			valiCode: 123123,
+			clientType: 2
+    }).then(response => {
+    	console.log(response)
+    	console.log(this.$url)
+    })
   },
   methods: {
   	// 随机验证码部分
@@ -774,7 +785,7 @@ export default {
 	  },
   	// 监听找回密码第二步表单
 		isValfore(newVal,oldVal){
-			console.log(newVal)
+			// console.log(newVal)
 	    if(Number(newVal) === 2){
 	    	this.getBackIsSubTwo = true
 	      // 三个input框内都有值时需要做的操作
@@ -786,7 +797,7 @@ export default {
 	  },
   	// 监听注册表单
 		isValfive(newVal,oldVal){
-			console.log(newVal)
+			// console.log(newVal)
 	    if(Number(newVal) === 6){
 	    	this.registerisSub = true
 	      // 三个input框内都有值时需要做的操作
@@ -798,7 +809,7 @@ export default {
 	  },
   	// 监听完善信息 第三方登录调到的 表单
 		isValsix(newVal,oldVal){
-			console.log(newVal)
+			// console.log(newVal)
 	    if(Number(newVal) === 6){
 	    	this.perjectisSub = true
 	      // 三个input框内都有值时需要做的操作
@@ -810,7 +821,7 @@ export default {
 	  },
   	// 监听完善信息 手机快捷登录的 表单
 		isValseven(newVal,oldVal){
-			console.log(newVal)
+			// console.log(newVal)
 	    if(Number(newVal) === 4){
 	    	this.perjectisSubTwo = true
 	      // 三个input框内都有值时需要做的操作

@@ -2,7 +2,7 @@
   <div id="houseimgswiper" class="swiper-no-swiping">
     <div class="mySwiperTwo">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" v-for="(item,index) in houseslides" @click="swiperT (index)">
+            <div class="swiper-slide" v-for="(item,index) in Newdetailsfloor" @click="swiperT (index)">
               <img :src="item.src" alt="">
               <p>{{item.name}}</p>
             </div>
@@ -10,14 +10,14 @@
         <!-- 如果需要分页器 -->
         <!-- <div class="swiper-pagination"></div> -->
         <!-- 如果需要导航按钮 -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+       <!--  <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
     </div>
     <transition name="el-fade-in">
       <div class="houseimgswiper-heibei" v-show="swiperShow">
         <div class="mySwiperThree">
             <div class="swiper-wrapper">
-                <div class="swiper-slide" v-for="item in houseslides">
+                <div class="swiper-slide" v-for="item in Newdetailsfloor">
                   <img :src="item.src" alt="">
                 </div>
             </div>
@@ -40,7 +40,7 @@ export default {
 
   },
   props: {
-    houseslides: {
+    Newdetailsfloor: {
       type: Array,
       default: []
     },
@@ -62,10 +62,10 @@ export default {
       spaceBetween : 30,
       centerInsufficientSlides: true,
       // 如果需要前进后退按钮
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
       onSlideChangeEnd: function(swiper){
         swiper.update()
         // mySwiper.startAutoplay()
@@ -94,7 +94,6 @@ export default {
           mySwiper.reLoop()
         },
       })
-      this.swiper.slideTo(index+1, 1, false)
     },
     swipernone () {
       this.swiper = null
@@ -120,21 +119,18 @@ export default {
     cursor: pointer;
   }
   .mySwiperTwo .swiper-wrapper .swiper-slide img{
-    height: 100%;
+    width: 100%;
+    height: 240px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)
+    top: 0;
+    left: 0;
   }
   .mySwiperTwo .swiper-wrapper .swiper-slide p{
     font-size: 16px;
-    padding: 5px 15px;
-    border-radius: 3px;
-    background: #62a82f;
-    color: #fff;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
   }
   .swiper-button-prev, .swiper-container-rtl .swiper-button-next{
     width: 30px;
