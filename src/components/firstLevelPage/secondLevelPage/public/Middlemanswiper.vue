@@ -9,8 +9,8 @@
                 </div>
                 <div class="swiper-sw-zi">
                   <p>{{item.name}}</p>
-                  <p>{{item.phone}}</p>
-                  <p><img src="static/images/firstLevelPage/secondLevelPage/a-zixun.png" alt="">在线咨询</p>
+                  <p><img src="static/images/firstLevelPage/secondLevelPage/phone.png" alt="">{{item.phone}}</p>
+                  <!-- <p><img src="static/images/firstLevelPage/secondLevelPage/a-zixun.png" alt="">在线咨询</p> -->
                 </div>
               </div>
             </div>

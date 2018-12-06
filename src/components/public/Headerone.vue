@@ -10,10 +10,10 @@
           <p>北京</p>
         </div>
         <div class="headerone-wc-search">
-          <div class="headerone-wcs-maphouse">
+         <!--  <div class="headerone-wcs-maphouse">
             <img src="static/images/public/map1.png" alt="">
             <p>地图找房</p>
-          </div>
+          </div> -->
           <div class="headerone-wcs-butsearch">
             <img src="static/images/public/search.png" alt="">
           </div>

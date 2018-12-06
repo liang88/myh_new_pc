@@ -14,7 +14,7 @@
 			<div class="newhousedetails-w-number clear">
 				<p class="newhousedetails-wn-left">房源编号：123456789</p>
 				<div class="newhousedetails-wn-right">
-					<p @click="FxShow" class="newhousedetails-wnr-p"><img src="static/images/firstLevelPage/secondLevelPage/b-fenxiang.png" alt="">
+<!-- 					<p @click="FxShow" class="newhousedetails-wnr-p"><img src="static/images/firstLevelPage/secondLevelPage/b-fenxiang.png" alt="">
 						分享
 						<el-collapse-transition>
 							<ul v-show="fxShow">
@@ -32,7 +32,7 @@
 								</li>
 							</ul>
 						</el-collapse-transition>
-					</p>
+					</p> -->
 					<p class="newhousedetails-wnr-p"><img src="static/images/firstLevelPage/secondLevelPage/a-follow1.png" alt="">关注</p>
 				</div>
 			</div>
@@ -192,7 +192,7 @@
 				</div>
 				<p class="newhousedetails-sc-title" id="comment">点评（{{nav}}）</p>
 				<div class="newhousedetails-sc-comment">
-					<p class="newhousedetails-scc-zongcom">综合评分：<span>4.6分</span></p>
+<!-- 					<p class="newhousedetails-scc-zongcom">综合评分：<span>4.6分</span></p>
 					<div class="newhousedetails-scc-xing clear">
 						<div class="newhousedetails-sccx-one clear">
 							<span>周边</span>
@@ -206,7 +206,7 @@
 							<span>绿化</span>
 							<el-rate class="newhousedetails-xing" v-model="value1" disabled :colors="['#62a82f','#62a82f','#62a82f']"></el-rate>
 						</div>
-					</div>
+					</div> -->
 					<div class="newhousedetails-scc-dan clear" v-for="item in 3">
 						<div class="newhousedetails-sccd-left">
 							<div class="newhousedetails-sccdl-center">
@@ -219,13 +219,14 @@
 						</div>
 						<div class="newhousedetails-sccd-right">
 							<p>
-								<span>周边：5.6</span>
+					<!-- 			<span>周边：5.6</span>
 								<span>交通：4.6</span>
-								<span>绿化：4.3</span>
+								<span>绿化：4.3</span> -->
 							</p>
 							<p>接口和地方加会受到法律就好垃圾是的覅普沃；卢卡斯达卡接收到考虑好是阿萨德撒娇的山东矿机就接口和地方加会受到法律就好垃圾是的覅普沃；卢卡斯达卡接收到考虑好是阿萨德撒娇的山东矿机就接口和地方加会受到法律就好垃圾是的覅普沃；卢卡斯达卡接收到考虑好是阿萨德撒娇的山东矿机就接口和地方加会受到法律就好垃圾是的覅普沃；卢卡斯达卡接收到考虑好是阿萨德撒娇的山东矿机就接口和地方加会受到法律就好垃圾是的覅普沃；卢卡斯达卡接收到考虑好是阿萨德撒娇的山东矿机就接口和地方加会受到法律就好垃圾是的覅普沃；卢卡斯达卡接收到考虑好是阿萨德撒娇的山东矿机就</p>
 							<p>
 								<span>2018-2-24 11:32:59</span>
+								<span>27</span>
 								<span>27</span>
 							</p>
 						</div>

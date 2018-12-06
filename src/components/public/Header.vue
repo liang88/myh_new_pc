@@ -9,19 +9,21 @@
 					<div class="header-w-t-center">
 						<div class="header-w-t-c-top clear">
 							<p @click="xiaLa">
-								新房
+								<span>新房</span>
 								<el-collapse-transition>
 									<ul class="clear" v-show="xiala">
+                    <li>新房</li>
 										<li>二手房</li>
 										<li>租房</li>
-										<li>小区</li>
+                    <li>找小区</li>
+										<li>找经纪人</li>
 									</ul>
 								</el-collapse-transition>
 							</p>
 							<input type="text" name="" placeholder="请输入楼盘名称、区域或商圈">
-							<p>搜&nbsp;&nbsp;&nbsp;&nbsp;索</p>
+							<p><img src="static/images/public/search.png" alt=""></p>
 						</div>
-						<p class="header-w-map"><img src="static/images/public/position.png" alt="">地图找房</p>
+						<!-- <p class="header-w-map"><img src="static/images/public/position.png" alt="">地图找房</p> -->
 						<p class="header-w-mai">我要卖房</p>
 						<p class="header-w-zu">我要出租</p>
 						<div class="header-w-t-c-bottom">
@@ -124,7 +126,7 @@ export default {
 	watch: {
 		'$route' (to, from) {
 			if (this.$route.path == '/Index' || this.$route.path == '/') {
-				this.bgcolor = '#fff'
+				this.bgcolor = '#f5f5f5'
 			} else {
 				this.bgcolor = '#f5f5f5'
 			}

@@ -33,6 +33,11 @@ export default new Router({
       component: resolve => require(['@/components/firstLevelPage/secondLevelPage/Oldhousedetails'], resolve),
     },
     {
+      path: '/Sellhousing',
+      name: 0,
+      component: resolve => require(['@/components/firstLevelPage/secondLevelPage/thirdLevelPage/Sellhousing'], resolve),
+    },
+    {
       path: '/Login',
       component: resolve => require(['@/components/firstLevelPage/Login'], resolve),
     }

@@ -1,19 +1,16 @@
 <template>
-  <div id="headertopone">
-    <div class="headertopone-wap">
-      <div class="headertopone-w-center">
+  <div id="headertoptwo">
+    <div class="headertoptwo-wap">
+      <div class="headertoptwo-w-center">
         <ul class="clear">
           <li v-for="(item,index) in todoData" :key="item.index">
             <router-link tag="span" :to="{path:item.path}">{{item.text}}</router-link>
           </li>
         </ul>
-        <p class="headertopone-w-dandu">我要出租</p>
-        <div class="headertopone-w-xian"></div>
-        <p class="headertopone-w-dandu">我要卖房</p>
-        <div class="headertopone-w-right">
-          <p class="headertopone-wr-dandu">登录</p>
-          <div class="headertopone-wr-xian"></div>
-          <p class="headertopone-wr-dandu">注册</p>
+        <div class="headertoptwo-w-right">
+          <p class="headertoptwo-wr-dandu">登录</p>
+          <div class="headertoptwo-wr-xian"></div>
+          <p class="headertoptwo-wr-dandu">注册</p>
         </div>
       </div>
     </div>
@@ -21,7 +18,7 @@
 </template>
 <script type="text/javascript">
 export default {
-  name: 'Headertopone',
+  name: 'Headertoptwo',
   data () {
   	return {
   		xiala: false,

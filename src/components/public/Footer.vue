@@ -1,5 +1,8 @@
 <template>
   <div id="footer">
+    <div class="footer-wapone" v-show="mianze">
+      免责声明：使用本网站的所有用户须接受并遵守用户协议和免责声明，本网站所刊载的内容保证100%真实图片，如发现虚假房源，欢迎举报，一经核实，奖励100元。<span>举报虚假房源</span>
+    </div>
     <div class="footer-wap">
     	<div class="footer-wap-center">
     		<div class="footer-wap-tbcener">
@@ -92,6 +95,7 @@ export default {
       time: 0,
       dParams: 20,
       scrollState: 0,
+      mianze: true,
   	}
   },
   computed:{
@@ -131,5 +135,14 @@ export default {
       this.scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
     }
   },
+  watch: {
+    '$route' (to, from) {
+      if (this.$route.path == '/Index') {
+        this.mianze = false
+      } else {
+        this.mianze = true
+      }
+    }
+  }
 }
 </script>

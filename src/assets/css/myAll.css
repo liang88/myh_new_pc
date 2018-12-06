@@ -3360,7 +3360,8 @@
 	z-index: 9;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi{
-	margin-left: 36px;
+	margin-left: 26px;
+	position: relative;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(1){
 	font-size: 18px;
@@ -3370,6 +3371,12 @@
 	font-size: 18px;
 	color: #808080;
 	margin-top: 12px;
+	padding-left: 30px;
+}
+#newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(2) img{
+	position: absolute;
+	top: 55%;
+	left: 0;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(3){
 	width: auto;
@@ -3515,7 +3522,7 @@
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-comment .newhousedetails-scc-dan .newhousedetails-sccd-left{
 	width: 239px;
 	height: 100%;
-	margin: 10px 0;
+	margin: 36px 0;
 	float: left;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -3562,7 +3569,7 @@
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-comment .newhousedetails-scc-dan .newhousedetails-sccd-right p:nth-child(1){
 	width: 100%;
-	height: 66px;
+	height: 36px;
 	line-height: 66px;
 	font-size: 16px;
 	color: #808080;
@@ -3589,8 +3596,16 @@
 	float: right;
 	margin-right: 30px;
 	padding-left: 20px;
-	background: url('/static/images/firstLevelPage/secondLevelPage/a-zan1.png') no-repeat;
+	background: url('/static/images/firstLevelPage/secondLevelPage/b-zan1.png') no-repeat;
 	background-position: 0px 20px;
+	cursor: pointer;
+}
+#newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-comment .newhousedetails-scc-dan .newhousedetails-sccd-right p:nth-child(3) span:nth-child(3){
+	float: right;
+	margin-right: 30px;
+	padding-left: 20px;
+	background: url('/static/images/firstLevelPage/secondLevelPage/c-zan1.png') no-repeat;
+	background-position: 0px 26px;
 	cursor: pointer;
 }
 #newhousedetails .newhousedetails-smallmodel .newhousedetails-s-center .newhousedetails-sc-comment .newhousedetails-scc-xianshi{
@@ -3899,7 +3914,8 @@
 	z-index: 9;
 }
 #oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi{
-	margin-left: 36px;
+	margin-left: 26px;
+	position: relative;
 }
 #oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(1){
 	font-size: 18px;
@@ -3909,6 +3925,12 @@
 	font-size: 18px;
 	color: #808080;
 	margin-top: 12px;
+	margin-left: 30px;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(2) img{
+	position: absolute;
+	top: 55%;
+	left: 0;
 }
 #oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-swiper .swiper-s-wap .swiper-sw-zi p:nth-child(3){
 	width: auto;
@@ -4031,7 +4053,7 @@
 #oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-left{
 	width: 239px;
 	height: 100%;
-	margin: 10px 0;
+	margin: 36px 0;
 	float: left;
 	display: -webkit-flex;
 	display: -moz-flex;
@@ -4078,7 +4100,7 @@
 }
 #oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right p:nth-child(1){
 	width: 100%;
-	height: 66px;
+	height: 36px;
 	line-height: 66px;
 	font-size: 16px;
 	color: #808080;
@@ -4105,8 +4127,16 @@
 	float: right;
 	margin-right: 30px;
 	padding-left: 20px;
-	background: url('/static/images/firstLevelPage/secondLevelPage/a-zan1.png') no-repeat;
+	background: url('/static/images/firstLevelPage/secondLevelPage/b-zan1.png') no-repeat;
 	background-position: 0px 20px;
+	cursor: pointer;
+}
+#oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-dan .oldhousedetails-sccd-right p:nth-child(3) span:nth-child(3){
+	float: right;
+	margin-right: 30px;
+	padding-left: 20px;
+	background: url('/static/images/firstLevelPage/secondLevelPage/c-zan1.png') no-repeat;
+	background-position: 0px 26px;
 	cursor: pointer;
 }
 #oldhousedetails .oldhousedetails-smallmodel .oldhousedetails-s-center .oldhousedetails-sc-comment .oldhousedetails-scc-xianshi{
@@ -4967,4 +4997,27 @@
 	line-height: 60px;
 	margin: 145px auto 0;
 	cursor: pointer;
+}
+#sellhousing{
+	width: 100%;
+}
+#sellhousing .sellhousing-wap{
+	width: 1230px;
+	margin: 0 auto;
+	margin-top: 38px;
+}
+#sellhousing .sellhousing-wap .sellhousing-w-dan{
+	width: 100%;
+	height: 40px;
+	margin-bottom: 36px;
+}
+#sellhousing .sellhousing-wap .sellhousing-w-dan .sellhousing-wd-left{
+	width: 74px;
+	float: left;
+	font-size: 18px;
+	line-height: 40px;
+}
+#sellhousing .sellhousing-wap .sellhousing-w-dan .sellhousing-wd-right{
+	width: 1056px;
+	float: right;
 }

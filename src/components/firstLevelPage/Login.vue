@@ -148,6 +148,9 @@
 					</div>
 					<div class="login-lr-qqweixin">
 						<img @click="clkThreeLogSuccess" src="static/images/firstLevelPage/a-wx.png" alt="">
+						<div id="login_container">
+							
+						</div>
 						<img src="static/images/firstLevelPage/a-qq.png" alt="">
 						<img src="static/images/firstLevelPage/a-wb.png" alt="">
 					</div>
@@ -431,15 +434,15 @@ export default {
     this.makeCode(this.identifyCodes, 4);
     // const root = process.env.API_ROOT;
     // console.log(root)
-    this.$post('http://www.manyihefc.com:8080/myh_management/agentLoginVsCode',{
-			loginMobile: 1,
-			password: 1,
-			valiCode: 123123,
-			clientType: 2
-    }).then(response => {
-    	console.log(response)
-    	console.log(this.$url)
-    })
+   //  this.$post('http://www.manyihefc.com:8080/myh_management/agentLoginVsCode',{
+			// loginMobile: 1,
+			// password: 1,
+			// valiCode: 123123,
+			// clientType: 2
+   //  }).then(response => {
+   //  	console.log(response)
+   //  	console.log(this.$url)
+   //  })
   },
   methods: {
   	// 随机验证码部分
@@ -624,6 +627,22 @@ export default {
   	clkThreeLogSuccess () {
   		this.perfectShow = !this.perfectShow
   		this.isLogAll = true
+			// var obj = new WxLogin({
+			// 	self_redirect:false,
+			// 	id:"login_container",
+			// 	appid: "wxe94d1868465fcec1",
+			// 	scope: "snsapi_login",
+			// 	redirect_uri: "http%3a%2f%2flocalhost%3a8080",
+			// 	state: "1234557",
+			// 	style: "",
+			// 	href: ""
+			// })
+			// this.$get('/connect/qrconnect?appid='+'wxe94d1868465fcec1'+'&redirect_u ri='+'http%3a%2f%2flocalhost%3a8080'+'&response_type=code'+'&scope=snsapi_login'+'#wechat_redirect').then(response => {
+			// 	// console.log(response)
+			// })
+			// this.$get('/sns/oauth2/access_token?appid=wxe94d1868465fcec1&secret=215ba04d5f4fdde8e84dbeee726f7ea4&code=021mltvr0kRF1f1Yxnur0khxvr0mltvd&grant_type=a021mltvr0kRF1f1Yxnur0khxvr0mltvd').then(response => {
+			// 	console.log(response)
+			// })
   	},
   	// 手机快捷登录验证码倒计时 and 手机号验证
 		getCode () {
@@ -835,5 +854,12 @@ export default {
 }
 </script>
 <style scoped>
-
+	#login_container{
+		background: #fff;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 999;
+	}
 </style>
