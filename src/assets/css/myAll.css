@@ -3091,7 +3091,7 @@
 	width: 100%;
 	font-size: 36px;
 	font-weight: 600;
-	margin-top: 66px;
+	margin-top: 36px;
 }
 #newhousedetails .newhousedetails-w-title span:nth-child(1){
 	float: left;
@@ -3110,8 +3110,8 @@
 #newhousedetails .newhousedetails-w-number{
 	width: 100%;
 	font-size: 14px;
-	margin-top: 24px;
-	margin-bottom: 36px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 #newhousedetails .newhousedetails-w-number .newhousedetails-wn-left{
 	float: left;
@@ -3655,13 +3655,13 @@
 	width: 100%;
 	font-size: 36px;
 	font-weight: 600;
-	margin-top: 66px;
+	margin-top: 36px;
 }
 #oldhousedetails .oldhousedetails-w-number{
 	width: 100%;
 	font-size: 14px;
-	margin-top: 24px;
-	margin-bottom: 36px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 }
 #oldhousedetails .oldhousedetails-w-number .oldhousedetails-wn-left{
 	float: left;

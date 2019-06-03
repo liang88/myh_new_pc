@@ -70,7 +70,7 @@ export default {
         },
         {
           index: 12,
-          text: '咨询',
+          text: '资讯',
           path: '/Newhouse/',
         },
       ]
